@@ -1,5 +1,7 @@
 package crudpoo;
 
+import java.util.ArrayList;
+
 public class Categoria {
     
     private int id;
@@ -27,5 +29,13 @@ public class Categoria {
     @Override
     public String toString() {
         return "Categoria{id= " + id + ", nombre: '" + nombre + "'}";
+    }
+
+    public int getIdPorNombre(ArrayList<Categoria> categorias, String nombre) {
+        for (Categoria c : categorias) {
+            if(c.getNombre() == nombre)
+                return c.getId();
+        }
+        return -1;
     }
 }

@@ -1,0 +1,26 @@
+Pre entrega:
+Un CRUD de artículos(sugerencia) funcional con POO que funcione en consola con ingreso de datos por input.
+Atributos de artículo:
+id
+descripcion
+precio
+
+Que tenga un menú para el usuario:
+Crear 
+Listar 
+Modificar
+Eliminar
+POO:
+Clases y objetos
+Herencia (Clase abstracta - Abstracción)
+Encapsulamiento(atributos private con getters y setters)
+Polimorfismo(override)
+Implementar interface
+ArraysList
+
+Para el ingreso de datos se debe validar.
+
+Extras no obligatorios, pero que es bueno practicarlo:
+CRUD Categorías y que la categoría forme parte del Artículo.
+CRUD Usuarios
+CRUD de Pedidos
